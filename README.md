@@ -1,4 +1,4 @@
-# GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment
+# LaCTok:Latent Consistency Tokenizer for High-resolution Image Reconstruction and Generation by 256 Tokens
 
 This repository contains code for the paper [LaCTok:Latent Consistency Tokenizer for High-resolution Image Reconstruction and Generation by 256 Tokens](https://arxiv.org/abs/2503.08377).
 ### Abstract
@@ -27,10 +27,17 @@ methods.*
 ### Summary figure
 
 <p align="center">
-    <img src="images/pipeline.pdf" alt="figure1"/>
+    <img src="images/hq_example.jpg" alt="figure1"/>
 </p>
 
+*1024-pixel image generation results of LaCTokGen-T* in an autoregressive way with 256 tokens, demonstrating
+the capability of LaCTokGen-T* in high-quality image synthesis. *
 
+<p align="center">
+    <img src="images/pipeline.jpg" alt="figure2"/>
+</p>
+
+*Overview of our tokenizer and text-to-image model. *
 
 ## Code
 
@@ -56,3 +63,4 @@ python demo.py \
 --gpt-ckpt "<Transformer path>" --gpt-model GPT-XL --image-size 256 \
 --seed 42\
 ```
+
