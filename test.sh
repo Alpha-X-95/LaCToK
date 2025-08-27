@@ -10,6 +10,6 @@ python demo.py \
 --top-k 1000 \
 --t5-path /home/notebook/data/group/group/xieqingsong/models \
 --temperature 0.1 \
---ckpt /home/notebook/data/group/group/xieqingsong/code/4m/output/latok-tlcm-flux-1024t2i-mul/checkpoint-iter-14999.pth \
---gpt-ckpt /home/notebook/data/group/group/xieqingsong/models/LlamaGen-t2i-alldata/2025-02-24-09-14-56/070-GPT-XL/checkpoints/0005000.pt --gpt-model GPT-XL --image-size 256 \
+--ckpt LaCTok-T.pth \
+--gpt-ckpt LaCTokGen-T.pth --gpt-model GPT-XL --image-size 256 \
 --seed 42\

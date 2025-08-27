@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 
 ### Image generation
-*Please download pretrained tokenizer (LaCTok-T) and auto-regressive model (LaCTokGen-T) from from OPPOer/LaCTok and text encoder from google/flan-t5-xl*
+*Please download pretrained tokenizer (LaCTok-T.pth) and auto-regressive model (LaCTokGen-T.pth) from from OPPOer/LaCTok and text encoder from google/flan-t5-xl*
 
 ```bash
 python demo.py \
@@ -60,7 +60,7 @@ python demo.py \
 --ckpt "<Tokenizer path>" \
 --t5-path "<text encoder path>"
 --temperature 0.1 \
---gpt-ckpt "<Transformer path>" --gpt-model GPT-XL --image-size 256 \
+--gpt-ckpt "<auto-regressive model path>" --gpt-model GPT-XL --image-size 256 \
 --seed 42\
 ```
 

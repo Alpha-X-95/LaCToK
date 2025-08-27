@@ -56,8 +56,9 @@ def main(args):
     torch.set_grad_enabled(False)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     # create and load model
-    sd_path='/home/notebook/data/group/group/xieqingsong/models/sdxl_models/stable-diffusion-xl-base-1.0'
-    ckpt='/home/notebook/data/group/group/xieqingsong/code/4m/output/latok-tlcm-flux-1024t2i-mul/checkpoint-iter-14999.pth'
+   
+    sd_path='stabilityai/stable-diffusion-xl-base-1.0'
+   
     vq_model = VQControlNet(
                             image_size_sd=1024,
                             codebook_size=16384,
