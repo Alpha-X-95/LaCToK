@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 
 ### Image generation
-
+*Please download pretrained tokenizer (LaCTok-T) and auto-regressive model (LaCTokGen-T) from from OPPOer/LaCTok and text encoder from google/flan-t5-xl*
 
 ```bash
 python demo.py \
