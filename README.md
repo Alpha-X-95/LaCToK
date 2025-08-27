@@ -31,13 +31,13 @@ methods.*
 </p>
 
 *1024-pixel image generation results of LaCTokGen-T* in an autoregressive way with 256 tokens, demonstrating
-the capability of LaCTokGen-T* in high-quality image synthesis. *
+the capability of LaCTokGen-T* in high-quality image synthesis.*
 
 <p align="center">
     <img src="images/pipeline.jpg" alt="figure2"/>
 </p>
 
-*Overview of our tokenizer and text-to-image model. *
+*Overview of our tokenizer and text-to-image model.*
 
 ## Code
 
